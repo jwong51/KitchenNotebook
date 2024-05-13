@@ -1,8 +1,8 @@
-# recipe-app
+# KitchenNotebook
 
 Members: Jayden Wong
 
 
-M recipe app for IOS devices
+A recipe ntoebook for IOS devices
 
 Proposal:
