@@ -19,7 +19,8 @@ Must have:
 Nice to have:
 - Add a review button
 - Add selections of other cuisines
-
+- Add recipe or delete recipe data from the firebase database
+  
 Wireframe: 
 - Figma
   https://www.figma.com/board/N7orO0oPf4STn87WdWBPZe/Mobile-Development-Final-Project?node-id=0%3A1&t=7NlAqISz8yxRcep5-1
