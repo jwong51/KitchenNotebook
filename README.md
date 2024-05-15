@@ -17,9 +17,10 @@ Must have:
 - The application shall show a home button that shows a list of dishes
 
 Nice to have:
-- Add a review button
+- Add a review button(text or scale review)
 - Add selections of other cuisines
 - Add recipe or delete recipe data from the firebase database
+- Add a login/register feature
   
 Wireframe: 
 - Figma
