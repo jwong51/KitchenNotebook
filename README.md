@@ -2,11 +2,11 @@
 
 Members: Jayden Wong
 
+A notebook for keeping track of Chinese cuisine recipes. Application was inspired in order to 
+help my mom avoid headaches thinking about what dish to make a picky eater for dinner.
 
-A notebook for keeping track of Chinese cuisine recipes.
 
-
---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 PROPOSAL
 
 Must have:
