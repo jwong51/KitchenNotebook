@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064C12A4967E6AF70571C1DE04E26F94 /* Pods-KitchenNotebookTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7935C51A59736397AB0EE52430324E /* Pods-KitchenNotebookTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A68AD978213D5C0764710EFADC51530 /* Pods-KitchenNotebook-KitchenNotebookUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C5BF9B1B79E4A312F15C32ADFB377 /* Pods-KitchenNotebook-KitchenNotebookUITests-dummy.m */; };
+		87355710ADE2352358AB29A98D48DE7C /* Pods-KitchenNotebook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0309B4824E768625F1F710E8CE31517 /* Pods-KitchenNotebook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6CA554450805598601D9E0E2BE5C1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9D148AF88F8F4EDED13BAD901AAB4F68 /* Pods-KitchenNotebookTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A82D9E05DF74B09307050921C0DD8396 /* Pods-KitchenNotebookTests-dummy.m */; };
+		B1AA31612B41C89ACFC281AC0A8F346A /* Pods-KitchenNotebook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF913270C436C7B0CF82E8A97E6DA /* Pods-KitchenNotebook-dummy.m */; };
+		B5B844AF10B38641F61A462F2474F979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C70B763C12637A3B3CFF9B02A7035217 /* Pods-KitchenNotebook-KitchenNotebookUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 429C2581BC53D6AA393FEDDF91C33D14 /* Pods-KitchenNotebook-KitchenNotebookUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFEC822421CB123C06C1382161DFF37C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA754C1F1E9219369B26644D26B8F172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108CE015016C3D2D459868E820D4AB00;
+			remoteInfo = "Pods-KitchenNotebook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D7058D407E6ADC4B76B254274A4162 /* Pods-KitchenNotebook-KitchenNotebookUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KitchenNotebook-KitchenNotebookUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12C66CC013C4A9D2EDFBBE0C8028F3D6 /* Pods-KitchenNotebook-KitchenNotebookUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KitchenNotebook-KitchenNotebookUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A4C5BF9B1B79E4A312F15C32ADFB377 /* Pods-KitchenNotebook-KitchenNotebookUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KitchenNotebook-KitchenNotebookUITests-dummy.m"; sourceTree = "<group>"; };
+		1C6B69C554519518DE5E8F7B80D6318C /* Pods-KitchenNotebook-KitchenNotebookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KitchenNotebook-KitchenNotebookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		429C2581BC53D6AA393FEDDF91C33D14 /* Pods-KitchenNotebook-KitchenNotebookUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KitchenNotebook-KitchenNotebookUITests-umbrella.h"; sourceTree = "<group>"; };
+		42EC55F3C65D02C260AFA962330C3268 /* Pods-KitchenNotebook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KitchenNotebook-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CBCF3A4844FE7E459360215155B0513 /* Pods-KitchenNotebook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KitchenNotebook-Info.plist"; sourceTree = "<group>"; };
+		599E329C26E4D3354973F904B9AF56B9 /* Pods-KitchenNotebookTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KitchenNotebookTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A7935C51A59736397AB0EE52430324E /* Pods-KitchenNotebookTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KitchenNotebookTests-umbrella.h"; sourceTree = "<group>"; };
+		71CC12E32E31A4C82C6BA844A5E9D257 /* Pods-KitchenNotebook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KitchenNotebook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74B80919E099C06433A1FD0055FDC6D2 /* Pods-KitchenNotebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KitchenNotebook.debug.xcconfig"; sourceTree = "<group>"; };
+		7A5D52A5C493950DC3ECF20FF3811193 /* Pods-KitchenNotebook */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KitchenNotebook"; path = Pods_KitchenNotebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		846DEC2CE0F8AD69A55596E09BE45035 /* Pods-KitchenNotebookTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KitchenNotebookTests.modulemap"; sourceTree = "<group>"; };
+		87CA8CC150EEF33AD2927558E10557C7 /* Pods-KitchenNotebookTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KitchenNotebookTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A5A6D84F0D6DE06FF7CC108CD2EBC3A /* Pods-KitchenNotebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KitchenNotebook.release.xcconfig"; sourceTree = "<group>"; };
+		8BF47FD8A642EC40F455E2887309FF19 /* Pods-KitchenNotebook-KitchenNotebookUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KitchenNotebook-KitchenNotebookUITests"; path = Pods_KitchenNotebook_KitchenNotebookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C91F9622445D1F27AF1B6FBFC14110B /* Pods-KitchenNotebookTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KitchenNotebookTests"; path = Pods_KitchenNotebookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0309B4824E768625F1F710E8CE31517 /* Pods-KitchenNotebook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KitchenNotebook-umbrella.h"; sourceTree = "<group>"; };
+		A458E22380D8837F149EB6737687FDFB /* Pods-KitchenNotebookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KitchenNotebookTests.release.xcconfig"; sourceTree = "<group>"; };
+		A82D9E05DF74B09307050921C0DD8396 /* Pods-KitchenNotebookTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KitchenNotebookTests-dummy.m"; sourceTree = "<group>"; };
+		AC6BF913270C436C7B0CF82E8A97E6DA /* Pods-KitchenNotebook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KitchenNotebook-dummy.m"; sourceTree = "<group>"; };
+		AEC60A2D9535AC9C7B1372BFAB6DD82C /* Pods-KitchenNotebookTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KitchenNotebookTests-Info.plist"; sourceTree = "<group>"; };
+		AF8C9D164273B7DE791D487D440DDB90 /* Pods-KitchenNotebook-KitchenNotebookUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KitchenNotebook-KitchenNotebookUITests-Info.plist"; sourceTree = "<group>"; };
+		D295E7F3F8C7D3FD8A4A779F7A071F4C /* Pods-KitchenNotebookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KitchenNotebookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0230EAAD372BBD833AC5DF91424165F /* Pods-KitchenNotebook-KitchenNotebookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KitchenNotebook-KitchenNotebookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F23CEAF0D33229C7A177552AEAB429E9 /* Pods-KitchenNotebook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KitchenNotebook.modulemap"; sourceTree = "<group>"; };
+		FA4C16DFDD0A3F7EA69A16EA0FA07075 /* Pods-KitchenNotebook-KitchenNotebookUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KitchenNotebook-KitchenNotebookUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3667B24591B43732A093784F8C90E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6CA554450805598601D9E0E2BE5C1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB0260FE94AA2924BCFF803E18C2140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEC822421CB123C06C1382161DFF37C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9672099FBE95058570E78FA5E78AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B844AF10B38641F61A462F2474F979 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A664DF58FBBAD5F75DB2E775F94D27E /* Pods-KitchenNotebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				846DEC2CE0F8AD69A55596E09BE45035 /* Pods-KitchenNotebookTests.modulemap */,
+				87CA8CC150EEF33AD2927558E10557C7 /* Pods-KitchenNotebookTests-acknowledgements.markdown */,
+				599E329C26E4D3354973F904B9AF56B9 /* Pods-KitchenNotebookTests-acknowledgements.plist */,
+				A82D9E05DF74B09307050921C0DD8396 /* Pods-KitchenNotebookTests-dummy.m */,
+				AEC60A2D9535AC9C7B1372BFAB6DD82C /* Pods-KitchenNotebookTests-Info.plist */,
+				5A7935C51A59736397AB0EE52430324E /* Pods-KitchenNotebookTests-umbrella.h */,
+				D295E7F3F8C7D3FD8A4A779F7A071F4C /* Pods-KitchenNotebookTests.debug.xcconfig */,
+				A458E22380D8837F149EB6737687FDFB /* Pods-KitchenNotebookTests.release.xcconfig */,
+			);
+			name = "Pods-KitchenNotebookTests";
+			path = "Target Support Files/Pods-KitchenNotebookTests";
+			sourceTree = "<group>";
+		};
+		52E2D788A58BBACA8899F845E4E0CADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A5D52A5C493950DC3ECF20FF3811193 /* Pods-KitchenNotebook */,
+				8BF47FD8A642EC40F455E2887309FF19 /* Pods-KitchenNotebook-KitchenNotebookUITests */,
+				9C91F9622445D1F27AF1B6FBFC14110B /* Pods-KitchenNotebookTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CFD743B6E0224788AC94B9FA198EA44 /* Pods-KitchenNotebook-KitchenNotebookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C16DFDD0A3F7EA69A16EA0FA07075 /* Pods-KitchenNotebook-KitchenNotebookUITests.modulemap */,
+				12C66CC013C4A9D2EDFBBE0C8028F3D6 /* Pods-KitchenNotebook-KitchenNotebookUITests-acknowledgements.markdown */,
+				07D7058D407E6ADC4B76B254274A4162 /* Pods-KitchenNotebook-KitchenNotebookUITests-acknowledgements.plist */,
+				1A4C5BF9B1B79E4A312F15C32ADFB377 /* Pods-KitchenNotebook-KitchenNotebookUITests-dummy.m */,
+				AF8C9D164273B7DE791D487D440DDB90 /* Pods-KitchenNotebook-KitchenNotebookUITests-Info.plist */,
+				429C2581BC53D6AA393FEDDF91C33D14 /* Pods-KitchenNotebook-KitchenNotebookUITests-umbrella.h */,
+				1C6B69C554519518DE5E8F7B80D6318C /* Pods-KitchenNotebook-KitchenNotebookUITests.debug.xcconfig */,
+				F0230EAAD372BBD833AC5DF91424165F /* Pods-KitchenNotebook-KitchenNotebookUITests.release.xcconfig */,
+			);
+			name = "Pods-KitchenNotebook-KitchenNotebookUITests";
+			path = "Target Support Files/Pods-KitchenNotebook-KitchenNotebookUITests";
+			sourceTree = "<group>";
+		};
+		A1265BA517156F4312656562DC4F755D /* Pods-KitchenNotebook */ = {
+			isa = PBXGroup;
+			children = (
+				F23CEAF0D33229C7A177552AEAB429E9 /* Pods-KitchenNotebook.modulemap */,
+				71CC12E32E31A4C82C6BA844A5E9D257 /* Pods-KitchenNotebook-acknowledgements.markdown */,
+				42EC55F3C65D02C260AFA962330C3268 /* Pods-KitchenNotebook-acknowledgements.plist */,
+				AC6BF913270C436C7B0CF82E8A97E6DA /* Pods-KitchenNotebook-dummy.m */,
+				4CBCF3A4844FE7E459360215155B0513 /* Pods-KitchenNotebook-Info.plist */,
+				A0309B4824E768625F1F710E8CE31517 /* Pods-KitchenNotebook-umbrella.h */,
+				74B80919E099C06433A1FD0055FDC6D2 /* Pods-KitchenNotebook.debug.xcconfig */,
+				8A5A6D84F0D6DE06FF7CC108CD2EBC3A /* Pods-KitchenNotebook.release.xcconfig */,
+			);
+			name = "Pods-KitchenNotebook";
+			path = "Target Support Files/Pods-KitchenNotebook";
+			sourceTree = "<group>";
+		};
+		A283ED0EBC3EDA40006192F725850E5D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1265BA517156F4312656562DC4F755D /* Pods-KitchenNotebook */,
+				7CFD743B6E0224788AC94B9FA198EA44 /* Pods-KitchenNotebook-KitchenNotebookUITests */,
+				4A664DF58FBBAD5F75DB2E775F94D27E /* Pods-KitchenNotebookTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				52E2D788A58BBACA8899F845E4E0CADE /* Products */,
+				A283ED0EBC3EDA40006192F725850E5D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A0F5638A0551D97DDF247DB25146C5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87355710ADE2352358AB29A98D48DE7C /* Pods-KitchenNotebook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79EE3B567E94E32B4BFB720D4071AFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70B763C12637A3B3CFF9B02A7035217 /* Pods-KitchenNotebook-KitchenNotebookUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA765A93CB2568F24F88A7D8AA013344 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064C12A4967E6AF70571C1DE04E26F94 /* Pods-KitchenNotebookTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		108CE015016C3D2D459868E820D4AB00 /* Pods-KitchenNotebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F688763C91FE2220580B3937238609 /* Build configuration list for PBXNativeTarget "Pods-KitchenNotebook" */;
+			buildPhases = (
+				4A0F5638A0551D97DDF247DB25146C5C /* Headers */,
+				29195ABBB4D3CFB13F03707FFE856A99 /* Sources */,
+				4FB0260FE94AA2924BCFF803E18C2140 /* Frameworks */,
+				DA1196B22E3528478CFAB964CBEFFD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KitchenNotebook";
+			productName = Pods_KitchenNotebook;
+			productReference = 7A5D52A5C493950DC3ECF20FF3811193 /* Pods-KitchenNotebook */;
+			productType = "com.apple.product-type.framework";
+		};
+		4099979C05A73F463DF4ADF1408226A2 /* Pods-KitchenNotebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7254EE2941E365E9E0983E2B82DEC1F2 /* Build configuration list for PBXNativeTarget "Pods-KitchenNotebookTests" */;
+			buildPhases = (
+				DA765A93CB2568F24F88A7D8AA013344 /* Headers */,
+				C23E1545E7BC920FFCBC3DAF1FA86CC3 /* Sources */,
+				2A3667B24591B43732A093784F8C90E8 /* Frameworks */,
+				3CE52E06526F0EFFC7CD669D3E99684B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C017C29BED4CD18DA76DF4E45D840A /* PBXTargetDependency */,
+			);
+			name = "Pods-KitchenNotebookTests";
+			productName = Pods_KitchenNotebookTests;
+			productReference = 9C91F9622445D1F27AF1B6FBFC14110B /* Pods-KitchenNotebookTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADB4D90A6E42C8E6465B62C4A8CF1BBC /* Pods-KitchenNotebook-KitchenNotebookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E580E215B6DB95A7ED726DE63462FA43 /* Build configuration list for PBXNativeTarget "Pods-KitchenNotebook-KitchenNotebookUITests" */;
+			buildPhases = (
+				C79EE3B567E94E32B4BFB720D4071AFB /* Headers */,
+				6B15762FFB316B6C4F8EABF7DCE6DB5A /* Sources */,
+				AC9672099FBE95058570E78FA5E78AAA /* Frameworks */,
+				954B3E71502DD70BE9A5519BE8949C24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KitchenNotebook-KitchenNotebookUITests";
+			productName = Pods_KitchenNotebook_KitchenNotebookUITests;
+			productReference = 8BF47FD8A642EC40F455E2887309FF19 /* Pods-KitchenNotebook-KitchenNotebookUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 52E2D788A58BBACA8899F845E4E0CADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				108CE015016C3D2D459868E820D4AB00 /* Pods-KitchenNotebook */,
+				ADB4D90A6E42C8E6465B62C4A8CF1BBC /* Pods-KitchenNotebook-KitchenNotebookUITests */,
+				4099979C05A73F463DF4ADF1408226A2 /* Pods-KitchenNotebookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CE52E06526F0EFFC7CD669D3E99684B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954B3E71502DD70BE9A5519BE8949C24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1196B22E3528478CFAB964CBEFFD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29195ABBB4D3CFB13F03707FFE856A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AA31612B41C89ACFC281AC0A8F346A /* Pods-KitchenNotebook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B15762FFB316B6C4F8EABF7DCE6DB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A68AD978213D5C0764710EFADC51530 /* Pods-KitchenNotebook-KitchenNotebookUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23E1545E7BC920FFCBC3DAF1FA86CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D148AF88F8F4EDED13BAD901AAB4F68 /* Pods-KitchenNotebookTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0C017C29BED4CD18DA76DF4E45D840A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KitchenNotebook";
+			target = 108CE015016C3D2D459868E820D4AB00 /* Pods-KitchenNotebook */;
+			targetProxy = EA754C1F1E9219369B26644D26B8F172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D4D67357FBDDC1B028CFE2F9A69DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A458E22380D8837F149EB6737687FDFB /* Pods-KitchenNotebookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KitchenNotebookTests/Pods-KitchenNotebookTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KitchenNotebookTests/Pods-KitchenNotebookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75B9314DA58EC4BD933B3A30AEC7608A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5A6D84F0D6DE06FF7CC108CD2EBC3A /* Pods-KitchenNotebook.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KitchenNotebook/Pods-KitchenNotebook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KitchenNotebook/Pods-KitchenNotebook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		801954AB55357118324B724363E891A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6B69C554519518DE5E8F7B80D6318C /* Pods-KitchenNotebook-KitchenNotebookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KitchenNotebook-KitchenNotebookUITests/Pods-KitchenNotebook-KitchenNotebookUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KitchenNotebook-KitchenNotebookUITests/Pods-KitchenNotebook-KitchenNotebookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		99ACBBA213A19FE4353497629EA3E147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B80919E099C06433A1FD0055FDC6D2 /* Pods-KitchenNotebook.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KitchenNotebook/Pods-KitchenNotebook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KitchenNotebook/Pods-KitchenNotebook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3B1BF12D35AC0C7C81DAD2485D04BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D295E7F3F8C7D3FD8A4A779F7A071F4C /* Pods-KitchenNotebookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KitchenNotebookTests/Pods-KitchenNotebookTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KitchenNotebookTests/Pods-KitchenNotebookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0ACE1994C274532A1C89FDC5E623B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0230EAAD372BBD833AC5DF91424165F /* Pods-KitchenNotebook-KitchenNotebookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KitchenNotebook-KitchenNotebookUITests/Pods-KitchenNotebook-KitchenNotebookUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KitchenNotebook-KitchenNotebookUITests/Pods-KitchenNotebook-KitchenNotebookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7254EE2941E365E9E0983E2B82DEC1F2 /* Build configuration list for PBXNativeTarget "Pods-KitchenNotebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B1BF12D35AC0C7C81DAD2485D04BE2 /* Debug */,
+				3D4D67357FBDDC1B028CFE2F9A69DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F688763C91FE2220580B3937238609 /* Build configuration list for PBXNativeTarget "Pods-KitchenNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ACBBA213A19FE4353497629EA3E147 /* Debug */,
+				75B9314DA58EC4BD933B3A30AEC7608A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E580E215B6DB95A7ED726DE63462FA43 /* Build configuration list for PBXNativeTarget "Pods-KitchenNotebook-KitchenNotebookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801954AB55357118324B724363E891A8 /* Debug */,
+				C0ACE1994C274532A1C89FDC5E623B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

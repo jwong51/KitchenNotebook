@@ -16,7 +16,7 @@ enum Category: String, CaseIterable, Identifiable {
     case vegetable = "Vegetable"
     case rice = "Rice"
     case noodle = "Noodle"
-    case desert = "Dessert"
+    case desert = "Desert"
     case drink = "Drink"
     case soup = "Soup"
     case salad = "Salad"
